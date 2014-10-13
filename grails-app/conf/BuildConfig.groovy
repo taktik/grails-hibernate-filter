@@ -1,12 +1,13 @@
 grails.project.work.dir = 'target'
 grails.project.source.level = 1.6
-
+grails.project.repos.default = 'nexus'
 grails.project.dependency.resolution = {
 
 	inherits 'global'
 	log 'warn'
 
 	repositories {
+                mavenRepo "http://maven.taktik.be/nexus/content/groups/public"
 		grailsCentral()
 	}
 
