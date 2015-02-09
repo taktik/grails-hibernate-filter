@@ -6,3 +6,6 @@
 plugin.xml
 .DS_Store
 /web-app/
+grails-hibernate-filter-grailsPlugins.iml
+grails-hibernate-filter.iml
+grails-hibernate-filter.ipr
